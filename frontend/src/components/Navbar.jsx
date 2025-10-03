@@ -16,7 +16,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
     return (
         <nav className="w-full flex md:justify-center justify-between items-center p-4">
-            <div className="md:flex- flex-initial justify-center items-center mr-10">
+            <div className="md:flex-[0.5] flex-initial justify-center items-center">
                 <div className="text-2xl text-white">Web3App</div>
             </div>
             <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
